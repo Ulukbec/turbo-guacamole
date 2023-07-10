@@ -8,3 +8,4 @@ urlpatterns = [
     path('register/', RegisterViewSet.as_view(create_list), name='signup'),
 
 ]
+
